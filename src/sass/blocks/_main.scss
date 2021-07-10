@@ -1,0 +1,51 @@
+.main {
+    min-height: 680px;
+    background: url('/src/img/headbg.png') no-repeat center/cover;
+    padding: 24px 15px;
+    &__header {
+        display: flex;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 705px;
+        padding-left: 55px;
+        padding-right: 50px;
+        align-items: center;
+    }
+    &__right-line {
+        width: 1px;
+        height: 24px;
+        background-color: #888992;
+    }
+    &__wrapper-item {
+        font-size: 15px;
+        line-height: 16px;
+        font-weight: 400;
+        color: white;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__call {
+        margin-top: 25px;
+        margin-right: 20px;
+        &-text {
+            font-size: 14px;
+            line-height: 24px;
+            text-align: right;
+            color: white;
+            font-weight: bold;
+        }
+        &-tel {
+            font-size: 19px;
+            line-height: 24px;
+            font-weight: bold;
+            color: white;
+            text-align: right;
+        }
+    }
+    &__btn {
+        padding-top: 20px;
+    }
+}
