@@ -48,4 +48,52 @@
     &__btn {
         padding-top: 20px;
     }
+    &__delivery {
+        text-align: center;
+        margin-top: 15px;
+    }
+    &__global {
+        font-size: 24px;
+        color: #f2f2f3;
+        line-height: 40px;
+    }
+    &__cargo {
+        font-size: 72px;
+        color: $main-color;
+        margin-bottom: 0px;
+        line-height: 75px;
+    }
+    &__descr {
+        font-size: 42px;
+        color: #ffffff;
+    }
+    img {
+        margin-top: 25px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px 0px 10px;
+        &-item {
+            margin-right: 20px;
+            &_picture {
+                text-align: center;
+            }
+        }
+        &-text {
+            text-align: center;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 22px;
+            margin-top: 23px;
+        }
+    }
+    .main__btn2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .btn2 {
+        width: 230px;
+        height: 57px;
+    }
 }
